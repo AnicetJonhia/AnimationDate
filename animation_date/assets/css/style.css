@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'poppin';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+
+*, *::before, *::after {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppin';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 1%;
+}
+
+.content {
+    background-color: #e9f6ff;
+    height: 90vh;
+    min-width: 270px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 3px #efececcc, -1px -1px 2px #efececcc;
+    border-radius: 10px;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.nom {
+    border: 1px solid #3c596e;
+    color: #3c596e;
+    margin: .5rem 0;
+    padding: .5rem .7rem;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #d0e0ff;
+    box-shadow: 3px 3px 3px #dbdbdbd6,
+        -6px -6px 6px #dbdbdbd6;
+    text-shadow: 1px 1px #ccccccd6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.titre {
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.time_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.day, .month, .year {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #3c596e;
+    text-shadow: 1px 1px #ccccccd6;
+}
+
+.time_hour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+    font-weight: bold;
+}
+
+.bg_blur {
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    background-color: #0c85ff14;
+    box-shadow: inset 3px 1px 3px #0c84ff3b,
+    inset -3px -1px 3px #0c84ff3b;
+    border-radius: 10px;
+}
